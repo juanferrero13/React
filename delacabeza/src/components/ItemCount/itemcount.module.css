@@ -1,0 +1,19 @@
+.itemCount_count{
+    margin-top: 15px;
+}
+
+.itemCount {
+    border: solid 1px black;
+    cursor: pointer;
+    padding-inline: 15px;
+    padding-block: 5px;
+    border-radius: 5px;
+}
+
+.itemCount:hover{
+    background-color: orangered;
+    transition: all 0.5s;
+}
+
+
+

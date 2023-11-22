@@ -1,0 +1,14 @@
+.item{
+    padding: 12px;
+    max-width: 305px;
+    border-radius: 10px;
+}
+
+.item img{
+    width: 280px;
+}
+
+.item_price{
+    font-weight: 700;
+    margin-top: 10px;
+}
