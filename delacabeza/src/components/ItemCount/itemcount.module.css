@@ -1,18 +1,28 @@
-.itemCount_count{
-    margin-top: 15px;
-}
-
 .itemCount {
-    border: solid 1px black;
+    border: solid 1px rgb(146, 135, 135);
     cursor: pointer;
-    padding-inline: 15px;
-    padding-block: 5px;
-    border-radius: 5px;
+    max-width: 100%;
+    display: flex;
+    gap: 25px;
+    margin-block: 1rem;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.itemCount:hover{
+.operator{
+    font-size: 25px;
+    background-color: silver;
+    padding-block: 5px;
+    padding-inline: 15px;
+}
+
+.agregarAlCarrito{
     background-color: orangered;
-    transition: all 0.5s;
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100%;
 }
 
 

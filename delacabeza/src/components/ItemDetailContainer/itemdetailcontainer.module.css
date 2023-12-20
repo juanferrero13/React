@@ -1,0 +1,12 @@
+.loading{
+    color: black;
+    text-align: center;
+    padding-top: 45vh;
+    padding-bottom: 50vh;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.detail{
+    height: 100vh;
+}
