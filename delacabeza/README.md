@@ -10,14 +10,14 @@ npm install
 npm run dev
 
 ### Tecnologías
-ReactJS
-Node.js
-Vite
-React Router DOM
-Firebase/Firestore
-SweetAlert2
-FontAwesome
-Chakra UIcd
+ReactJS -
+ Node.js -
+ Vite -
+ React Router DOM -
+ Firebase/Firestore -
+ SweetAlert2 -
+ FontAwesome -
+ Chakra UI
 
 ### Capturas del Proyecto
 [![Captura Pantalla](https://imgur.com/XV2t4sJ "Captura Pantalla")](https://imgur.com/XV2t4sJ "Captura Pantalla")
