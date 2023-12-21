@@ -1,23 +1,15 @@
-<!-- # React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh -->
-
-<!-- Nombre del Proyecto
+# Nombre del Proyecto
 deLaCabeza!
 
-Descripción del Proyecto
+## Descripción del Proyecto
 deLaCabeza! es un e-commerce que se dedica a la venta de gorras y beanies
 
-Instalación
+### Instalación
 git clone “https://github.com/juanferrero13/react“
 npm install
 npm run dev
-Tecnologías
+
+### Tecnologías
 ReactJS
 Node.js
 Vite
@@ -26,5 +18,13 @@ Firebase/Firestore
 SweetAlert2
 FontAwesome
 Chakra UIcd
-Capturas del Proyecto
-Contacto -->
+
+### Capturas del Proyecto
+[![Captura Pantalla](https://imgur.com/XV2t4sJ "Captura Pantalla")](https://imgur.com/XV2t4sJ "Captura Pantalla")
+[![Captura Pantalla](https://imgur.com/XkcctHN "Captura Pantalla")](https://imgur.com/XkcctHN "Captura Pantalla")
+[![Captura Pantalla](https://imgur.com/cOh2vP4 "Captura Pantalla")](https://imgur.com/cOh2vP4 "Captura Pantalla")
+[![Captura Pantalla](https://imgur.com/a5YeGQR "Captura Pantalla")](https://imgur.com/a5YeGQR "Captura Pantalla")
+[![Captura Pantalla](https://imgur.com/98cRvBR "Captura Pantalla")](https://imgur.com/98cRvBR "Captura Pantalla")
+
+### Contacto
+[Linkedin](https://www.linkedin.com/in/juan-pablo-ferrero-544b50264/ "Linkedin")

@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import { CartContext } from "../../context/CartContext"
-import styles from "./cart.module.css"
 import { Order } from "../Order/Order"
+import styles from "./cart.module.css"
 
 export const Cart = () => {
 

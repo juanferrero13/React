@@ -25,7 +25,6 @@ export const ItemDetail = ({ id, name, img, price, stock, description }) => {
             showConfirmButton: false,
             timer: 1500
         });
-        // console.log(`producto ID: ${id} agregado al carrito`)
     }
 
     return (
@@ -47,37 +46,3 @@ export const ItemDetail = ({ id, name, img, price, stock, description }) => {
         </>
     );
 };
-
-
-
-
-
-
-
-// import { ItemCount } from "../ItemCount/ItemCount";
-// import styles from "./itemdetail.module.css";
-
-// export const ItemDetail = ({id, name, img, price, stock, description }) => {
-
-//     const onAdd = () => {
-//         Swal.fire({
-//             position: "top-end",
-//             titleText: "Producto Agregado!",
-//             showConfirmButton: false,
-//             timer: 1500
-//         });
-//         console.log(`producto ID: ${id} agregado al carrito`)
-//     }
-
-//     return (
-//         <div className={styles.itemDetail}>
-//             <div className={styles.itemDetail_cart}>
-//                 <img className={styles.itemDetail_img} src={img} alt="" />
-//                 <p className={styles.itemDetail_title}>{name}</p>
-//                 <p className={styles.itemDetail_des}>"{description}"</p>
-//                 <p className={styles.itemDetail_price}>${price} </p>
-//                 <ItemCount className={styles.itemDetail_count} stock={stock} onAdd={onAdd} id={id} />
-//             </div>
-//         </div>
-//     );
-// };

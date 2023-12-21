@@ -39,7 +39,18 @@
 
 .order{
     text-align: center;
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: 400;
+    /* border: solid 1px silver; */
+    margin-top: 50px;
+    padding-inline: 50px;
+    padding-block: 15px;
+}
+
+.order h3{
+    font-size: 30px;
+    font-weight: 450;
+}
+
+.order p{
+    font-size: 20px;
+    font-weight: 600;
 }

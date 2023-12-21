@@ -10,6 +10,7 @@ export const Order = () => {
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [confirmEmail, setConfirmEmail] = useState("")
+    const [isSubmitting, setIsSubmitting] = useState(false)
     const [phone, setPhone] = useState("")
     const [orderId, setOrderId] = useState("")
 
@@ -22,8 +23,6 @@ export const Order = () => {
             total
         }
 
-        console.log(newOrder)
-
         const getOrder = await addDoc(collection(db, "orders"), newOrder)
         setOrderId(getOrder.id)
     }
@@ -31,21 +30,38 @@ export const Order = () => {
     const handleForm = (e) => {
         e.preventDefault()
         addOrderDB(cartItems, { name, email, phone }, totalCartItems)
-        setName("")
-        setPhone("")
-        setEmail("")
-        setConfirmEmail("")
-        clearCartItems()
-        Swal.fire({
-            title: "Compra Exitosa!",
-            icon: "success",
-            timer: 2000
-        })
+        if (email !== confirmEmail) {
+            Swal.fire({
+                title: "Los e-mails no coinciden!",
+                icon: "error",
+                timer: 3000
+            })
+            return;
+        } else if (cartItems.length === 0) {
+            Swal.fire({
+                title: "Carrito vacio!",
+                icon: "warning",
+                timer: 3000
+            })
+            return;
+        } else {
+            setName("")
+            setPhone("")
+            setEmail("")
+            setConfirmEmail("")
+            clearCartItems()
+            setIsSubmitting(true)
+            Swal.fire({
+                title: "Compra Exitosa!",
+                icon: "success",
+                timer: 2000
+            })
+        }
     }
 
-    if (orderId) {
+    if (isSubmitting && orderId) {
         return (
-            <div>
+            <div className={styles.order}>
                 <h3>¡Muchas gracias por tu compra!</h3>
                 <p>Tu código de orden es: {orderId}</p>
             </div>
@@ -63,10 +79,3 @@ export const Order = () => {
         </form>
     )
 }
-
-
-
-
-
-
-
