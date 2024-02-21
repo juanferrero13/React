@@ -3,7 +3,7 @@ import styles from "./footer.module.css"
 export const Footer = () => {
     return (
         <div className={styles.footer_container}>
-            <p className={styles.footer_p}>© 2023 <span className={styles.footer_span}>deLaCabeza!</span> - Todos los derechos reservados</p>
+            <p className={styles.footer_p}>© 2023 <strong className={styles.footer_strong}>deLaCabeza!</strong> - Todos los derechos reservados</p>
         </div>
     )
 }

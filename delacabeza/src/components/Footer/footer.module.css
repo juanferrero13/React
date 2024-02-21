@@ -1,6 +1,6 @@
 .footer_container{
     text-align: center;
-    background-color: rgb(70, 67, 67);
+    background-color: black;
     padding: 5rem;
     font-family: 'Montserrat';
     margin-top: 75px;
@@ -11,7 +11,7 @@
     color: antiquewhite;
 }
 
-.footer_span{
+.footer_strong{
     color: orange;
     font-weight: 500;
 }
