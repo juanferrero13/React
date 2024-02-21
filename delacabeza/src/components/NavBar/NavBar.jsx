@@ -7,7 +7,7 @@ export const NavBar = () => {
         <header className={styles.header}>
             <nav className={styles.navbar}>
                 <Link to="/">
-                    <img src="../public/img/deLaCabeza!-logo_transparent.png" alt="logo" className={styles.logo} />
+                    <img src="img/deLaCabeza!-logo_transparent.png" alt="logo" className={styles.logo} />
                 </Link>
                 <ul className={styles.nav}>
                     <Link to="/">
